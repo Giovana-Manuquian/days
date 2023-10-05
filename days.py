@@ -2,7 +2,7 @@ from os import system
 
 system('cls')
 
-number = int(input("Enter a number between [1 and 7]: "))
+number = int(input("Enter a number between [1-7]: "))
 
 if(number == 1):
     print(f"{number} it's Monday")
